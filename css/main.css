@@ -423,6 +423,47 @@ nav.main_nav ul a{
 
 /*/new*/
 
+
+/*new_about*/
+
+
+
+.items_nav{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    justify-content: space-between;
+    margin: 20px auto;
+    
+    
+    
+}
+
+
+.imgs{
+    height: 27px;
+    width: 81px;
+    background: url("../images/gal.jpg") no-repeat center;
+    background-size: 100% ;
+    animation: aboutItemOne 8s  ease-in-out;
+    
+}
+
+
+.phone{
+    background: url("../images/phone.jpg") no-repeat center;
+    background-size: 100% 100%;
+    height: 30px;
+    width: 195px;
+    position: relative;
+    bottom: 5px;
+    animation: aboutItemOne 8s  ease-in-out;
+}
+
+
+
+/*new_about*/
+
 /* gallery page */
 .main_block .gallery_block{
 	display:none;
@@ -502,6 +543,25 @@ nav.main_nav ul a{
 }
 
 /* animation */
+
+
+
+
+
+@keyframes aboutItemOne {
+    0%{
+        background-size: 10%;
+        opacity: 0;
+        
+        
+    }
+    
+    100%{
+        background-size: 100%;
+        opacity: 1;
+        
+    }
+}
 
 
 @keyframes NewLogo {
