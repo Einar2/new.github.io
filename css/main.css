@@ -555,14 +555,7 @@ nav.main_nav ul a{
 	}
 }
 
-.main_home .logo_block a{
-	display:none;
-}
-.main_home .logo_block a{
-	display: block;
-	animation: showLogo 3s linear forwards;
-    margin: 0px auto;
-}
+
 .main_home .logo_block .title{
 	opacity: 0;
 	font-size: 23px;
