@@ -100,7 +100,7 @@
     
     
     .img_title{
-        width: 100%;
+        width: 90%;
     }
     
     
@@ -113,7 +113,7 @@
     }
     
     100%{
-        width: 100%;
+        width: 90%;
         height: 130px;
         opacity: 1;
     }
