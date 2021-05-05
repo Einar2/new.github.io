@@ -439,6 +439,10 @@ nav.main_nav ul a{
     
 }
 
+.btn{
+    cursor: pointer;
+}
+
 
 .imgs{
     height: 27px;
