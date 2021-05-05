@@ -389,10 +389,13 @@ nav.main_nav ul a{
 
 .img_title{
     
+    width: 30%;
+    height: 130px;
+    
     background: url("../images/Dis_House.jpg") no-repeat center;
     background-size:  100%;
     margin: 0 auto;
-    opacity: 0;
+    
     
     
     animation: NewText 6s  ease-in-out;
@@ -401,13 +404,7 @@ nav.main_nav ul a{
     cursor: pointer;
     
     
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-delay: 3s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards;
-    animation-play-state: running;
+   
 }
 
 
@@ -530,7 +527,7 @@ nav.main_nav ul a{
     }
     
     100%{
-        width: 100%;
+        width: 30%;
         height: 130px;
         opacity: 1;
     }
