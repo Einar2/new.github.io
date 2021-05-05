@@ -388,10 +388,9 @@ nav.main_nav ul a{
 /*new*/
 
 .img_title{
-    width: 538px;
-    height: 76px;
-    background: url("../images/Dis_House.jpg");
-    background-size: 100% 100%;
+    
+    background: url("../images/Dis_House.jpg") no-repeat center;
+    background-size:  100%;
     margin: 0 auto;
     opacity: 0;
     
@@ -412,15 +411,17 @@ nav.main_nav ul a{
 }
 
 
+/*
 .logo_gif{
     height: 548px;
     width: 60%;
     margin: 0 auto;
-    background: url("../images/logo.gif");
+    background: url("../images/logo.gif") no-repeat center;
     background-size: 100% 100%;
     transition: all ease 2s;
     animation: NewLogo 5s  ease-in-out;
 }
+*/
 
 
 /*/new*/

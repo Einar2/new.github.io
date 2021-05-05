@@ -97,6 +97,14 @@
 	}
 }
 @media screen and (max-width: 768px){
+    
+/*new*/
+    
+    .img_title{
+        background-size: 90%;
+    }
+    
+/*new*/
 	nav.main_nav {
 		width: 100%;
 	}
@@ -182,5 +190,23 @@
     
 
     
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 425px){
+    
+/*new*/
+    
+    .img_title{
+        background-size: 80%;
+    }
+    
+/*new*/
+
 
 }
