@@ -98,9 +98,32 @@
 }
 @media screen and (max-width: 768px){
     
+/*about*/
+    .phone{
+        
+    }
+    
+    @keyframes aboutItemOne {
+    0%{
+        background-size: 10%;
+        opacity: 0;
+        
+        
+    }
+    
+    100%{
+        background-size: 80%;
+        opacity: 1;
+        
+    }
+}
+    
+    
+/*about*/
+    
     
     .img_title{
-        width: 90%;
+        width: 100%;
     }
     
     

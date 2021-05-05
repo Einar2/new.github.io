@@ -431,7 +431,7 @@ nav.main_nav ul a{
 .items_nav{
     display: flex;
     width: 50%;
-    height: 50px;
+    
     justify-content: space-between;
     margin: 20px auto;
     
@@ -444,7 +444,7 @@ nav.main_nav ul a{
     height: 27px;
     width: 81px;
     background: url("../images/gal.jpg") no-repeat center;
-    background-size: 100% ;
+    background-size: 100% 100% ;
     animation: aboutItemOne 8s  ease-in-out;
     
 }
