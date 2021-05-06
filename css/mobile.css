@@ -122,6 +122,12 @@
         height: 20px;
         
     }
+    
+    .imgs_two{
+        background-size: 80%;
+        height: 80px;
+        height: 20px;
+    }
     @keyframes aboutItemOne {
     0%{
         background-size: 10%;
