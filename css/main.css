@@ -468,6 +468,19 @@ nav.main_nav ul a{
 
 /*new_about*/
 
+
+/*abot_text*/
+
+.about_text{
+    width: 70%;
+    margin: 0 auto;
+    height: 721px;
+    background: url("../images/text_pc.jpg") no-repeat center;
+    background-size: 100%;
+}
+
+/*abot_text*/
+
 /* gallery page */
 .main_block .gallery_block{
 	display:none;
