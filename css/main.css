@@ -455,6 +455,13 @@ a:hover{
     background-size: 100% 100% ;
     animation: aboutItemOne 8s  ease-in-out;
     
+}.imgs_two{
+    height: 27px;
+    width: 81px;
+    background: url("../images/o_nas.jpg") no-repeat center;
+    background-size: 100% 100% ;
+    animation: aboutItemOne 8s  ease-in-out;
+    
 }
 
 
