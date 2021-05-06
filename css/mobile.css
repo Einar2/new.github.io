@@ -95,6 +95,8 @@
 	.content_block {
 		width: calc(100% - 50% - 20px);
 	}
+    
+  
 }
 @media screen and (max-width: 768px){
     
@@ -135,17 +137,19 @@
     }
 }
     
-    
-/*text*/
+    /*text*/
     
     
     .about_text{
         width: 95%;
-        height: 300px;
+        height: 500px;
     }
     
     
 /*text*/
+    
+    
+
     
 /*about*/
     
@@ -251,7 +255,16 @@
 		 animation-delay: 3s;
 	}
     
+      /*text*/
     
+    
+    .about_text{
+        width: 95%;
+        height: 300px;
+    }
+    
+    
+/*text*/
 
     
 
