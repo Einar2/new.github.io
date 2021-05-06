@@ -477,6 +477,10 @@ nav.main_nav ul a{
     height: 721px;
     background: url("../images/text_pc.jpg") no-repeat center;
     background-size: 100%;
+    
+    
+    animation: aboutText 10s  ease-in-out;
+    animation-delay: 0 5s;
 }
 
 /*abot_text*/
@@ -563,7 +567,19 @@ nav.main_nav ul a{
 
 
 
-
+@keyframes aboutText{
+    0%{
+        opacity: 0;
+    }
+    
+    90%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
 
 @keyframes aboutItemOne {
     0%{
