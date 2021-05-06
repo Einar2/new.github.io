@@ -100,8 +100,11 @@
     
 /*about*/
     .phone{
-        background-size: 80%;
-        width: 60px;
+        background-size: 110%;
+        width: 120px;
+        position: relative;
+        bottom: 3px;
+        
     }
     
     .items_nav{
@@ -111,7 +114,8 @@
     
     .imgs{
         background-size: 80%;
-        width: 160px;
+        width: 80px;
+        
     }
     @keyframes aboutItemOne {
     0%{

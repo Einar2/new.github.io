@@ -430,7 +430,7 @@ nav.main_nav ul a{
 
 .items_nav{
     display: flex;
-    width: 50%;
+    width: 40%;
     
     justify-content: space-between;
     margin: 20px auto;
