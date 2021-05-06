@@ -107,8 +107,7 @@
         background-size: 80%;
         width: 120px;
         height: 30px;
-        position: relative;
-        bottom: 7px;
+        
        
         
     }
@@ -122,6 +121,8 @@
         background-size: 50%;
         width: 80px;
         height: 20px;
+        position: relative;
+        top: 3px;
         
     }
     
@@ -129,6 +130,8 @@
         background-size: 50%;
         height: 80px;
         height: 20px;
+        position: relative;
+        top: 3px;
     }
     @keyframes aboutItemOne {
     0%{
