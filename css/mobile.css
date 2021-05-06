@@ -115,6 +115,7 @@
     .imgs{
         background-size: 80%;
         width: 80px;
+        height: 10px;
         
     }
     @keyframes aboutItemOne {
