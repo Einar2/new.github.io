@@ -117,14 +117,14 @@
     
     
     .imgs{
-        background-size: 80%;
+        background-size: 50%;
         width: 80px;
         height: 20px;
         
     }
     
     .imgs_two{
-        background-size: 80%;
+        background-size: 50%;
         height: 80px;
         height: 20px;
     }
@@ -138,6 +138,19 @@
     
     100%{
         background-size: 80%;
+        opacity: 1;
+        
+    }
+}    @keyframes aboutItemOne_1 {
+    0%{
+        background-size: 10%;
+        opacity: 0;
+        
+        
+    }
+    
+    100%{
+        background-size: 50%;
         opacity: 1;
         
     }

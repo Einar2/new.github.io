@@ -453,14 +453,14 @@ a:hover{
     width: 81px;
     background: url("../images/gal.jpg") no-repeat center;
     background-size: 100% 100% ;
-    animation: aboutItemOne 8s  ease-in-out;
+    animation: aboutItemOne_1 8s  ease-in-out;
     
 }.imgs_two{
     height: 27px;
     width: 81px;
     background: url("../images/o_nas.jpg") no-repeat center;
     background-size: 100% 100% ;
-    animation: aboutItemOne 8s  ease-in-out;
+    animation: aboutItemOne_1 8s  ease-in-out;
     
 }
 
@@ -593,6 +593,19 @@ a:hover{
 }
 
 @keyframes aboutItemOne {
+    0%{
+        background-size: 10%;
+        opacity: 0;
+        
+        
+    }
+    
+    100%{
+        background-size: 100%;
+        opacity: 1;
+        
+    }
+}@keyframes aboutItemOne_1 {
     0%{
         background-size: 10%;
         opacity: 0;
