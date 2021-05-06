@@ -100,10 +100,10 @@
     
 /*about*/
     .phone{
-        background-size: 110%;
+        background-size: 80%;
         width: 120px;
-        position: relative;
-        bottom: 3px;
+        height: 30px;
+       
         
     }
     
@@ -113,9 +113,9 @@
     
     
     .imgs{
-        background-size: 40%;
+        background-size: 80%;
         width: 80px;
-        height: 10px;
+        height: 20px;
         
     }
     @keyframes aboutItemOne {
