@@ -215,7 +215,7 @@ a{
 	text-decoration:none;
 	outline:none;
     color: #f5f5f7;
-    opacity: .8;
+    opacity: 1;
     background: no-repeat;
     -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
     transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -437,6 +437,10 @@ nav.main_nav ul a{
     
     
     
+}
+
+a:hover{
+    opacity: .8;
 }
 
 .btn{
