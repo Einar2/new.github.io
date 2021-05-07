@@ -496,6 +496,15 @@ a:hover{
 
 /*abot_text*/
 
+/*footer*/
+
+.footer{
+    animation: animFooter 9s  ease-in-out;
+}
+
+
+/*footer*/
+
 /* gallery page */
 .main_block .gallery_block{
 	display:none;
@@ -575,6 +584,21 @@ a:hover{
 }
 
 /* animation */
+
+
+@keyframes animFooter{
+    0%{
+        opacity: 0;
+    }
+    
+    90%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
 
 
 
