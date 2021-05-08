@@ -423,6 +423,46 @@ nav.main_nav ul a{
 
 /*/new*/
 
+/*footer*/
+
+.footer{
+    height: 100px;
+    
+    position: absolute;
+    bottom: 0;
+}
+
+hr{
+    opacity: .1;
+}
+
+.items_footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.footer_text{
+    color: #696969;
+    margin-left: 5px;
+}
+
+
+.footer_contact{
+    
+    height: 50px;
+    width: 150px;
+    display: block;
+    margin-right: 5px;
+}
+
+.footer_contact a{
+    color: #696969;
+}
+
+/*footer*/
 
 /*new_about*/
 
@@ -430,7 +470,7 @@ nav.main_nav ul a{
 
 .items_nav{
     display: flex;
-    width: 40%;
+    width: 65%;
     
     justify-content: space-between;
     margin: 20px auto;
@@ -475,6 +515,16 @@ a:hover{
     animation: aboutItemOne 8s  ease-in-out;
 }
 
+.email{
+    opacity: .8;
+    background: url("../images/mail.jpg")no-repeat center;
+    background-size: 100% 100%;
+    height: 22px;
+    width: 152px;
+    
+    animation: aboutItemOne 8s  ease-in-out;
+}
+
 
 
 /*new_about*/
@@ -490,8 +540,7 @@ a:hover{
     background-size: 100%;
     
     
-    animation: aboutText 10s  ease-in-out;
-    animation-delay: 0 5s;
+    animation: aboutText 9s  ease-in-out;
 }
 
 /*abot_text*/
@@ -499,7 +548,7 @@ a:hover{
 /*footer*/
 
 .footer{
-    animation: animFooter 9s  ease-in-out;
+    animation: animFooter 10s  ease-in-out;
 }
 
 
@@ -626,7 +675,7 @@ a:hover{
     
     100%{
         background-size: 100%;
-        opacity: 1;
+        opacity: .8;
         
     }
 }@keyframes aboutItemOne_1 {

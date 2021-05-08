@@ -130,42 +130,7 @@
 
 /*footer*/
 
-.footer{
-    height: 100px;
-    
-    position: absolute;
-    bottom: 0;
-}
 
-hr{
-    opacity: .1;
-}
-
-.items_footer{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-}
-
-.footer_text{
-    color: #696969;
-    margin-left: 5px;
-}
-
-
-.footer_contact{
-    
-    height: 50px;
-    width: 150px;
-    display: block;
-    margin-right: 5px;
-}
-
-.footer_contact a{
-    color: #696969;
-}
 
 
 
