@@ -475,9 +475,9 @@ hr{
 
 .preloader{
     width: 100%;
-    height: 1000px;
+    height: 100vh;
     background-color: #000000;
-    position: relative;
+    position: fixed;
     z-index: 11111;
 }
 
