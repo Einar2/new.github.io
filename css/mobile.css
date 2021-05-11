@@ -181,11 +181,23 @@
     .about_text{
         width: 95%;
         height: 500px;
+        
+
     }
     
     
 /*text*/
     
+
+/*footer*/
+    
+    .footer_contact{
+        width: 35%;
+        
+    }
+    
+   
+/*footer*/  
     
 
     
@@ -300,10 +312,25 @@
         width: 95%;
         height: 300px;
         
+        
     }
     
     
 /*text*/
+    
+    
+/*footer*/
+    
+    .footer_contact{
+        width: 45%;
+        font-size: 12px;
+    }
+    
+    .footer_text{
+        font-size: 15px;
+    }
+    
+/*footer*/
 
     
 
@@ -316,10 +343,18 @@
 
 @media screen and (max-width: 425px){
     
-/*new*/
-
+/*footer*/
     
-/*new*/
+    .footer_contact{
+        width: 45%;
+        font-size: 10px;
+    }
+    
+    .footer_text{
+        font-size: 13px;
+    }
+    
+/*footer*/
 
 
 }

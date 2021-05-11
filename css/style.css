@@ -136,15 +136,15 @@
 
 @media screen and (max-width: 2560px){
     .infinity_slider img{
-        height: 800px;
+        height: 600px;
     }
     
     .infinity_slider_wrap{
-        height: 800px;
+        height: 600px;
     }
     
     .btn_block{
-        height: 800px;
+        height: 600px;
     }
 }
 
