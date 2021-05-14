@@ -1,5 +1,5 @@
 @media screen and (max-width: 2570px){
-    
+
     .about_text{
         height: 1100px;
     }
@@ -69,92 +69,92 @@
 
 @media screen and (max-width: 2000px){
     .about_text{
-        height: 700px;
+        height: 800px;
     }
 }
 
 @media screen and (max-width: 1120px){
-	.container{
-		max-width: calc(100% - 40px);
-	}
-	.main_block p {
-		font-size: 20px;
-	}
-	.image_block {
-		width: 50%;
-		margin: 0px 20px 0px 0px;
-	}
-	.content_block {
-		width: calc(100% - 50% - 20px);
-	}
-    
-    
+    .container{
+        max-width: calc(100% - 40px);
+    }
+    .main_block p {
+        font-size: 20px;
+    }
+    .image_block {
+        width: 50%;
+        margin: 0px 20px 0px 0px;
+    }
+    .content_block {
+        width: calc(100% - 50% - 20px);
+    }
+
+
      .about_text{
         height: 540px;
     }
 }
 @media screen and (max-width: 960px){
-	nav.main_nav {
-		width: 50%;
-	}
-	.container{
-		max-width: calc(100% - 40px);
-	}
-	.main_block p {
-		font-size: 20px;
-	}
-	.image_block {
-		width: 50%;
-		margin: 0px 20px 0px 0px;
-	}
-	.content_block {
-		width: calc(100% - 50% - 20px);
-	}
-    
-  
+    nav.main_nav {
+        width: 50%;
+    }
+    .container{
+        max-width: calc(100% - 40px);
+    }
+    .main_block p {
+        font-size: 20px;
+    }
+    .image_block {
+        width: 50%;
+        margin: 0px 20px 0px 0px;
+    }
+    .content_block {
+        width: calc(100% - 50% - 20px);
+    }
+
+
 }
 @media screen and (max-width: 768px){
-    
+
 /*preloader*/
-    
+
     .position{
         position: absolute;
         left: 40%;
     }
-    
+
 /*preloader*/
-    
-    
-    
+
+
+
 /*about*/
     .phone{
         background-size: 80%;
         width: 120px;
         height: 30px;
-        
-       
-        
+
+
+
     }
-    
+
     .items_nav{
         width: 100%;
     }
-    
+
     .email{
         background-size: 80%;
         width: 90px;
     }
-    
-    
+
+
     .imgs{
         background-size: 50%;
         width: 80px;
         height: 20px;
         position: relative;
         top: 1px;
-        
+
     }
-    
+
     .imgs_two{
         background-size: 50%;
         height: 80px;
@@ -166,189 +166,189 @@
     0%{
         background-size: 10%;
         opacity: 0;
-        
-        
+
+
     }
-    
+
     100%{
         background-size: 80%;
         opacity: .8;
-        
+
     }
 }    @keyframes aboutItemOne_1 {
     0%{
         background-size: 10%;
         opacity: 0;
-        
-        
+
+
     }
-    
+
     100%{
         background-size: 50%;
         opacity: 1;
-        
+
     }
 }
-    
+
     /*text*/
-    
-    
+
+
     .about_text{
         width: 95%;
         height: 500px;
-        
+
 
     }
-    
-    
+
+
 /*text*/
-    
+
 
 /*footer*/
-    
+
     .footer_contact{
         width: 35%;
-        
-    }
-    
-   
-/*footer*/  
-    
 
-    
+    }
+
+
+/*footer*/
+
+
+
 /*about*/
-    
-    
+
+
     .img_title{
         width: 100%;
     }
-    
-    
+
+
     @keyframes NewText {
     0%{
         width: 269px;
         height: 38px;
-        
+
         opacity: 0;
     }
-    
+
     100%{
         width: 100%;
         height: 130px;
         opacity: 1;
     }
 }
-	nav.main_nav {
-		width: 100%;
-	}
-	.container{
-		max-width: calc(100% - 40px);
-	}
-	.main_block p {
-		font-size: 20px;
-	}
-	.image_block {
-		width: 100%;
-		margin: 0px 0px 20px 0px;
-	}
-	.content_block {
-		width: 100%;
-	}
-    
-    
-        
+    nav.main_nav {
+        width: 100%;
+    }
+    .container{
+        max-width: calc(100% - 40px);
+    }
+    .main_block p {
+        font-size: 20px;
+    }
+    .image_block {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+    .content_block {
+        width: 100%;
+    }
 
 
-    
-    
+
+
+
+
+
 }
 @media screen and (max-width: 640px){
-	nav.main_nav {
-		width: 100%;
-	}
-	.container{
-		max-width: calc(100% - 40px);
-	}
-	.main_block p {
-		font-size: 20px;
-	}
-	.image_block {
-		width: 100%;
-		margin: 0px 0px 21px 0px;
-	}
-	.content_block {
-		width: 100%;
-	}
-	.gallery_block{
-		padding: 0px;
-		margin: 0px;
-		list-style: none;
-		width: 100%;
-		height: 100%;
-		float: left;
-		position: relative;
-	}
-	.gallery_block .owl-stage-outer{
-		height: 100%;
-	}
-	.gallery_block .owl-item{
-		max-height:220px;
-	}
-	
-		.gallery_block li{
-		height: 100%;
-	}
-	.gallery_block li a{
-			float: left;
-		width: 100%;
-		height: 100%;
-	}
-	.gallery_block li a img{
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-	}
+    nav.main_nav {
+        width: 100%;
+    }
+    .container{
+        max-width: calc(100% - 40px);
+    }
+    .main_block p {
+        font-size: 20px;
+    }
+    .image_block {
+        width: 100%;
+        margin: 0px 0px 21px 0px;
+    }
+    .content_block {
+        width: 100%;
+    }
+    .gallery_block{
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        float: left;
+        position: relative;
+    }
+    .gallery_block .owl-stage-outer{
+        height: 100%;
+    }
+    .gallery_block .owl-item{
+        max-height:220px;
+    }
 
-	.main_block .gallery_block .owl-dots{
-		text-align: center;
-		margin:0px 0px 10px;
-		bottom: 0px;
-		position: relative;
-	}
-	.owl-carousel .animated{animation-duration:5s; animation-fill-mode:both;}
-	.owl-carousel .animated.owl-animated-in.active{
-		 animation-delay: 3s;
-	}
-    
+        .gallery_block li{
+        height: 100%;
+    }
+    .gallery_block li a{
+            float: left;
+        width: 100%;
+        height: 100%;
+    }
+    .gallery_block li a img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .main_block .gallery_block .owl-dots{
+        text-align: center;
+        margin:0px 0px 10px;
+        bottom: 0px;
+        position: relative;
+    }
+    .owl-carousel .animated{animation-duration:5s; animation-fill-mode:both;}
+    .owl-carousel .animated.owl-animated-in.active{
+         animation-delay: 3s;
+    }
+
       /*text*/
-    
-    
+
+
     .about_text{
         background: url("../images/text_phone_1.jpg") no-repeat center;
         background-size: 100%;
         height: 420px;
-        
-        
+
+
     }
-    
-    
+
+
 /*text*/
-    
-    
+
+
 /*footer*/
-    
+
     .footer_contact{
         width: 45%;
         font-size: 12px;
     }
-    
+
     .footer_text{
         font-size: 15px;
     }
-    
+
 /*footer*/
 
-    
+
 
 }
 
@@ -358,26 +358,26 @@
 
 
 @media screen and (max-width: 425px){
-    
+
 /*footer*/
-    
+
     .footer_contact{
         width: 45%;
         font-size: 10px;
     }
-    
+
     .footer_text{
         font-size: 13px;
     }
-    
+
 /*footer*/
-    
+
 /*about*/
-    
+
     .about_text{
-        height: 390px;
+        height: 750px;
     }
-    
+
 /*about*/
 
 

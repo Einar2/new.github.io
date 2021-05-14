@@ -5,7 +5,7 @@
     overflow: hidden;
 
     margin: 0 auto;
-    animation: showGallery 8s ease-in;
+/*    animation: showGallery 8s ease-in;*/
     transition-delay: opacity ease 10s;
     transition-duration: opacity ease 10s;
 }
@@ -18,16 +18,20 @@
 .img_block{
     transition: opacity ease 1s;
 
+
 }
 
+.delay{
+    opacity: 0;
+/*    animation: anim 10s ease-in;*/
+}
 
-
-.img_slider{
-    height: 500px;
-    width: 100%;
+.img_block_img{
+        height: 500px;
+        width: 100%;
     object-fit: contain;
-    position: absolute;
-    left: 0;
+        position: absolute;
+        left: 0;
     cursor: pointer;
 
 
@@ -49,6 +53,91 @@
     opacity: 0;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*slick*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*slick*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -132,145 +221,18 @@
 
 
 
-header{
-    transition: opacity ease .1s;
-}
-
-.content_block{
-    transition: opacity ease .1s;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.btn_close{
-    position: fixed;
-    font-weight: 600;
-    font-size: 20px;
-    right: 30px;
-    opacity: 0;
-    transition: opacity ease .1s;
-    z-index: 111111;
-    cursor: pointer;
-}
-
-.delay{
-    opacity: 0;
-}
-
-.infinity_slider_wrap_active{
-    height: 800px;
-    position: relative;
-    z-index: 1111;
-    background-color: #000;
-
-}
-
-.infinity_slider_active{
-    position: fixed;
-}
-
-.img_block_img{
-    height: 800px;
-    animation: active 1s ease-in;
-
-
-}
-
-.btn_block_active{
-    height: 800px;
-    position: fixed;
-}
-
-
-@keyframes active {
-    0%{
-        top: -30px;
-        opacity: 0;
-    }
-    80%{
-        opacity: 1;
-    }
-
-    100%{
-        top: 0;
-        opacity: 1;
-    }
-}
-/*
-header{
-    opacity: .1;
-}
-
-.circles{
-    display: none;
-}
-
-.content_block{
-    opacity: .1;
-}
-
-.infinity_slider{
-    position: fixed;
-
-}
-
-.infinity_slider_wrap{
-    height: 1000px;
-
-
-
-}
-
-.img_block_img{
-    height: 1000px;
-}
-
-
-.btn_block{
-    height: 1000px;
-    position: fixed;
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 
 @media screen and (max-width: 768px){
     /*Slider*/
-
+    .img_block_img{
+        height: 600px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
 
     .infinity_slider_wrap{
         height: 600px;
@@ -281,7 +243,7 @@ header{
         height: 600px;
     }
 
-    .img_slider{
+    .infinity_slider img{
         object-fit: contain;
         width: 100%;
         height: 600px;
@@ -300,7 +262,7 @@ header{
 
 @media screen and (max-width: 640px){
        /*Slider*/
-    .img_slider{
+    .img_block_img{
         height: 400px;
         object-fit: cover;
     }

@@ -1,30 +1,30 @@
-let images = document.querySelectorAll(".infinity_slider img");
+let images = document.querySelectorAll(".img_slider");
 let blocks = document.querySelectorAll(".img_block");
 let circles = document.querySelectorAll(".slide_circle");
 let step = 0;
 
 
 function slider(){
-    
+
     for(let i = 0; i < images.length; i++){
         images[i].classList.add("opacity0");
-       
-        
+
+
     }
-    
+
     images[step].classList.remove("opacity0");
-    
+
     setTimeout(function(){
         slider_2();
     },1000)
-    
+
  //circle
     for(let k = 0; k < circles.length; k++ ){
         circles[k].classList.remove("active_slide");
     }
-    
+
     circles[step].classList.add("active_slide");
-    
+
 
 }
 
@@ -40,7 +40,7 @@ function slider_2(){
 slider_2();
 slider();
 
-    
+
  let time = setInterval(function(){
 if(step + 1 == images.length){
         step = 0;
@@ -49,7 +49,7 @@ if(step + 1 == images.length){
         step++;
     }
     slider();
-    
+
 },5000);
 
 
@@ -58,7 +58,7 @@ if(step + 1 == images.length){
 
 
 document.querySelector(".left").onclick = function(){
-    
+
     if(step - 1 == -1){
         step = images.length - 1;
     }
@@ -67,11 +67,11 @@ document.querySelector(".left").onclick = function(){
     }
     slider();
     clearInterval(time);
-    
-    
+
+
     //
 
-    
+
     //
 };
 
@@ -86,16 +86,16 @@ document.querySelector(".rigth").onclick = function(){
     }
     slider();
     clearInterval(time);
-    
-    
+
+
     //
-    
-    
-   
-    
-     
-    
-    
+
+
+
+
+
+
+
     //
-    
+
 };
