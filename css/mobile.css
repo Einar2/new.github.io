@@ -370,6 +370,11 @@
         font-size: 13px;
     }
 
+     .footer{
+        position: static;
+        display: block;
+    }
+
 /*footer*/
 
 /*about*/
