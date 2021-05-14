@@ -370,6 +370,10 @@
         font-size: 13px;
     }
 
+    .footer{
+        position: absolute;
+        bottom: 0px;
+    }
 
 
 /*footer*/
@@ -378,7 +382,7 @@
 
     .about_text{
         height: 680px;
-        background-size: 81%;
+        background-size: 87%;
     }
 
 /*about*/
@@ -394,5 +398,6 @@
 
     .about_text{
         height: 656px;
+        background-size: 100%;
     }
 }
