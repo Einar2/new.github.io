@@ -374,7 +374,7 @@ nav.main_nav ul a{
     height: 44px;
 }
 .main_block p{
-    color: #a1a1a6;
+    color: #d2d2d4;
     text-align: center;
     margin: 20px 0px 0px;
     font-size:22px;
@@ -448,7 +448,7 @@ nav.main_nav ul a{
 
 }
 
-.items_footer h4,
+
 .items_footer a{
     color: #808080;
 }
@@ -463,6 +463,7 @@ nav.main_nav ul a{
 
 .footer_text{
     font-size: 18px;
+    color: #808080;
 }
 
 
