@@ -59,7 +59,6 @@ function close(){
     c.classList.remove("btn_block_active");
     for (let j = 0; j < img.length; j++){
         img[j].classList.remove("img_block_img");
-        img[j].classList.add("img_block_img_low");
     }
 
     d.style.opacity = "1";
