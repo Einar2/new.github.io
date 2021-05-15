@@ -345,6 +345,10 @@ body{display:none} html:before{content:'Переверните устройст�
         width: 45%;
         font-size: 12px;
     }
+    .footer{
+        position: static;
+        display: block;
+    }
 
     .footer_text{
         font-size: 15px;
@@ -374,10 +378,7 @@ body{display:none} html:before{content:'Переверните устройст�
         font-size: 13px;
     }
 
-    .footer{
-        position: absolute;
-        bottom: 0px;
-    }
+
 
 
 /*footer*/
