@@ -177,6 +177,7 @@ header{
     transition: all ease .5s;
     z-index: 111111;
     cursor: pointer;
+    padding: 20px;
 }
 
 .delay{
@@ -223,9 +224,7 @@ header{
         top: -30px;
         opacity: 0;
     }
-    90%{
-        opacity: 1;
-    }
+
 
     100%{
         top: 0;
