@@ -274,7 +274,7 @@ body{display:none;background: #000;} html:before{content:'Переверните
         max-width: calc(100% - 40px);
     }
     .main_block p {
-        font-size: 20px;
+        font-size: 15px;
     }
     .image_block {
         width: 100%;
@@ -366,6 +366,9 @@ body{display:none;background: #000;} html:before{content:'Переверните
 
 
 @media screen and (max-width: 425px){
+
+
+
 
 /*footer*/
 

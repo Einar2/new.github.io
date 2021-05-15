@@ -6,6 +6,7 @@ let b = document.querySelector(".infinity_slider");
 let c = document.querySelector(".btn_block");
 let d = document.querySelector("header");
 let e = document.querySelector(".content_block");
+let footer = document.querySelector(".footer");
 
 
 
@@ -26,6 +27,7 @@ function push(){
     a.classList.add("infinity_slider_wrap_active");
     b.classList.add("infinity_slider_active");
     c.classList.add("btn_block_active");
+    footer.style.opacity = ".1";
     for (let j = 0; j < img.length; j++){
         img[j].classList.add("img_block_img");
     }
@@ -60,5 +62,6 @@ function close(){
     }
 
     d.style.opacity = "1";
+    footer.style.opacity = "1";
     e.style.opacity = "1";
 }

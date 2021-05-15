@@ -5,7 +5,7 @@
     overflow: hidden;
 
     margin: 0 auto;
-    animation: showGallery 8s ease-in;
+    animation: showGallerys 4s ease-in;
     transition-delay: opacity ease 10s;
     transition-duration: opacity ease 10s;
 }
@@ -16,7 +16,7 @@
 }
 
 .img_block{
-    transition: opacity ease 1s;
+    transition: opacity ease 3s;
 
 }
 
@@ -66,7 +66,7 @@
 }
 
 
-@keyframes showGallery {
+@keyframes showGallerys {
     0%{
         opacity: 0;
     }
@@ -161,7 +161,6 @@ header{
 
 
 
-
 .btn_close{
     position: fixed;
     font-weight: 600;
@@ -179,14 +178,16 @@ header{
 
 .infinity_slider_wrap_active{
     height: 800px;
-    position: relative;
+    position: fixed;
+    left: 10px;
     z-index: 1111;
     background-color: #000;
+
 
 }
 
 .infinity_slider_active{
-    position: fixed;
+
 }
 
 .img_block_img{
@@ -198,7 +199,7 @@ header{
 
 .btn_block_active{
     height: 800px;
-    position: fixed;
+
 }
 
 
@@ -363,6 +364,7 @@ header{
 @media screen and (max-width: 375px){
     .btn_block{
         margin-left: 0px;
+
 
     }
 
