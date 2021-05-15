@@ -145,6 +145,7 @@ header{
 
 .content_block{
     transition: opacity ease .1s;
+    margin-top: 30px;
 }
 
 
