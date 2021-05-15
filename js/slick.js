@@ -36,7 +36,7 @@ function push(){
     e.style.opacity = ".1";
 
     for(let i = 0; i < img.length; i++){
-    img[i].onclick = zoom;
+
     clearInterval(time);
 
 }
@@ -48,30 +48,7 @@ function push(){
 
 
 
-function zoom(){
-    for (let j = 0; j < img.length; j++){
-        img[j].classList.add("img_active_zoom");
-        img[j].onclick = not_zoom;
-        setTimeout(function(){
-            img[j].classList.remove("img_active_not_zoom");
-        },150)
-    }
 
-}
-
-function not_zoom(){
-    for (let j = 0; j < img.length; j++){
-        img[j].classList.add("img_active_not_zoom");
-        setTimeout(function(){
-            img[j].classList.remove("img_active_zoom");
-        },150)
-
-
-        img[j].onclick = push;
-    }
-
-
-}
 
 
 function close(){
@@ -83,7 +60,7 @@ function close(){
     for (let j = 0; j < img.length; j++){
         img[j].classList.remove("img_block_img");
     }
-    not_zoom();
+
     d.style.opacity = "1";
     footer.style.opacity = "1";
     e.style.opacity = "1";
