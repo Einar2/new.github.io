@@ -336,10 +336,25 @@ header{
        margin: 10px auto;
     }
 
+    .img_active_not_zoom{
+        height: 400px;
+        animation: kk_1 .2s ease-in;
+    }
+
+    @keyframes kk_1{
+        0%{
+            height:  600px;
+        }
+
+        100%{
+            height: 400px;
+        }
+    }
+
     .img_active_zoom{
 
     height: 600px;
-        animation: kk .3s ease-in;
+        animation: kk .2s ease-in;
 }
 
 

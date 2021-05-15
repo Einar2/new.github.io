@@ -58,7 +58,11 @@ function zoom(){
 
 function not_zoom(){
     for (let j = 0; j < img.length; j++){
-        img[j].classList.remove("img_active_zoom");
+        img[j].classList.add("img_active_not_zoom");
+        setTimeout(function(){
+            img[j].classList.remove("img_active_zoom");
+        },300)
+
 
         img[j].onclick = push;
     }
