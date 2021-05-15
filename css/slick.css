@@ -174,7 +174,7 @@ header{
     font-size: 20px;
     right: 30px;
     opacity: 0;
-    transition: all ease .1s;
+    transition: all ease .5s;
     z-index: 111111;
     cursor: pointer;
 }
@@ -208,7 +208,9 @@ header{
 }
 
 .btn_block_active{
+    position: relative;
     height: 800px;
+    animation: active 2s ease-in;
 
 }
 
