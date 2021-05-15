@@ -5,7 +5,13 @@
 
 
     margin: 0 auto;
-    animation: showGallerys 4s ease-in;
+    animation: showGallerys 8s ease-in;
+    transition-delay: opacity ease 10s;
+    transition-duration: opacity ease 10s;
+}
+
+.content_block{
+    animation: showGallerys 9s ease-in;
     transition-delay: opacity ease 10s;
     transition-duration: opacity ease 10s;
 }
@@ -72,7 +78,7 @@
         opacity: 0;
     }
 
-     90%{
+     80%{
         opacity: 0;
     }
 
@@ -111,7 +117,7 @@
     display: flex;
     justify-content: space-between;
     height: 30px;
-    animation: showGallery 8s ease-in;
+    animation: showGallerys 8s ease-in;
     margin: 10px auto;
 
 }
@@ -164,7 +170,7 @@ header{
 
 .btn_close{
     position: fixed;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     right: 30px;
     opacity: 0;
@@ -180,7 +186,7 @@ header{
 .infinity_slider_wrap_active{
     height: 800px;
     position: fixed;
-    left: 10px;
+    left: 6px;
     z-index: 1111;
     background-color: #000;
 
@@ -195,7 +201,7 @@ header{
 .img_block_img{
 
     height: 800px;
-    animation: active 1s ease-in;
+    animation: active 2s ease-in;
 
 
 
@@ -215,7 +221,7 @@ header{
         top: -30px;
         opacity: 0;
     }
-    80%{
+    90%{
         opacity: 1;
     }
 
@@ -338,7 +344,7 @@ header{
 
     .img_active_not_zoom{
         height: 400px;
-        animation: kk_1 .2s ease-in;
+        animation: kk_1 .15s ease-in;
     }
 
     @keyframes kk_1{
@@ -354,7 +360,7 @@ header{
     .img_active_zoom{
 
     height: 600px;
-        animation: kk .2s ease-in;
+        animation: kk .15s ease-in;
 }
 
 
