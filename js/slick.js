@@ -38,6 +38,7 @@ function push(){
     for(let i = 0; i < img.length; i++){
     img[i].onclick = zoom;
     clearInterval(time);
+
 }
 
 
@@ -49,7 +50,7 @@ function push(){
 
 function zoom(){
     for (let j = 0; j < img.length; j++){
-        img[j].style.height = "600px";
+        img[j].classList.add("img_active_zoom");
         img[j].onclick = not_zoom;
     }
 
@@ -57,20 +58,13 @@ function zoom(){
 
 function not_zoom(){
     for (let j = 0; j < img.length; j++){
-        img[j].style.height = "400px";
-        img[j].onclick = zoom;
+        img[j].classList.remove("img_active_zoom");
+
         img[j].onclick = push;
     }
 
 
 }
-
-
-
-
-
-
-
 
 
 function close(){
@@ -87,6 +81,19 @@ function close(){
     footer.style.opacity = "1";
     e.style.opacity = "1";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //
