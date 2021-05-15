@@ -2,7 +2,7 @@
     width: 100%;
     max-width: calc(100% - 20px);
     height: 500px;
-    overflow: hidden;
+
 
     margin: 0 auto;
     animation: showGallerys 4s ease-in;
@@ -16,6 +16,7 @@
 }
 
 .img_block{
+    overflow: auto;
     transition: opacity ease 3s;
 
 }
@@ -184,6 +185,7 @@ header{
     background-color: #000;
 
 
+
 }
 
 .infinity_slider_active{
@@ -191,8 +193,10 @@ header{
 }
 
 .img_block_img{
+
     height: 800px;
     animation: active 1s ease-in;
+
 
 
 }
@@ -201,6 +205,12 @@ header{
     height: 800px;
 
 }
+
+.img_active_zoom{
+
+
+}
+
 
 
 @keyframes active {
@@ -304,6 +314,7 @@ header{
     .img_slider{
         height: 400px;
         object-fit: cover;
+
     }
 
     .infinity_slider_wrap{
