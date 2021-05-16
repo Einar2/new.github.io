@@ -53,6 +53,11 @@
 
 }
 
+.body{
+    height: 100vh;
+    overflow: hidden;
+}
+
 .opacity0{
     opacity: 0;
 

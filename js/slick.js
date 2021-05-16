@@ -3,6 +3,7 @@ let circle = document.querySelector(".circles");
 
 let a = document.querySelector(".infinity_slider_wrap");
 let b = document.querySelector(".infinity_slider");
+let body = document.querySelector("body");
 let c = document.querySelector(".btn_block");
 let d = document.querySelector("header");
 let e = document.querySelector(".content_block");
@@ -40,6 +41,7 @@ function push(){
     clearInterval(time);
 
 }
+    body.classList.add("body");
 
 
 
@@ -52,6 +54,7 @@ function push(){
 
 
 function close(){
+    body.classList.remove("body");
     circle.style.display = "flex";
     btn.style.opacity = "0";
     a.classList.remove("infinity_slider_wrap_active");
