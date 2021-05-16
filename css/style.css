@@ -3,7 +3,7 @@
     max-width: calc(100% - 20px);
     height: 500px;
     overflow: hidden;
-    
+
     margin: 0 auto;
     animation: showGallery 8s ease-in;
     transition-delay: opacity ease 10s;
@@ -17,7 +17,7 @@
 
 .img_block{
     transition: opacity ease 1s;
-    
+
 }
 
 .delay{
@@ -25,16 +25,16 @@
 /*    animation: anim 10s ease-in;*/
 }
 
-.infinity_slider img{
+.img_slider{
         height: 500px;
         width: 100%;
     object-fit: contain;
         position: absolute;
         left: 0;
-    
-    
+
+
     transition: opacity ease 1s;
-   
+
 }
 
 .btn_slider{
@@ -44,12 +44,12 @@
     cursor: pointer;
     margin: 0 20px;
     padding: 500px 0px;
-    
+
 }
 
 .opacity0{
     opacity: 0;
-  
+
 }
 
 
@@ -58,10 +58,10 @@
     0%{
         opacity: 1;
     }
-    
 
-  
-    
+
+
+
     100%{
         opacity: 0;
     }
@@ -69,17 +69,17 @@
 
 
 @keyframes showGallery {
-	0%{
-		opacity: 0;
-	}
-    
+    0%{
+        opacity: 0;
+    }
+
      90%{
         opacity: 0;
     }
-    
-	100%{
-		opacity: 1;
-	}
+
+    100%{
+        opacity: 1;
+    }
 }
 
 
@@ -114,7 +114,7 @@
     height: 30px;
     animation: showGallery 8s ease-in;
     margin: 10px auto;
-    
+
 }
 
 .slide_circle{
@@ -140,32 +140,32 @@
 
 @media screen and (max-width: 768px){
     /*Slider*/
-    .infinity_slider img{
+    .img_slider{
         height: 600px;
         width: 100%;
         position: absolute;
         left: 0;
     }
-    
+
     .infinity_slider_wrap{
         height: 600px;
-        
+
     }
-    
+
     .btn_block{
         height: 600px;
     }
-    
-    .infinity_slider img{
+
+    .img_slider{
         object-fit: contain;
         width: 100%;
         height: 600px;
     }
-    
+
     .btn_slider{
         padding: 100px 0px;
     }
-    
+
 /*Circle*/
     .circles{
         margin: -60px auto;
@@ -175,29 +175,29 @@
 
 @media screen and (max-width: 640px){
        /*Slider*/
-    .infinity_slider img{
+    .img_slider{
         height: 400px;
         object-fit: cover;
     }
-    
+
     .infinity_slider_wrap{
         height: 400px;
-        
+
     }
-    
+
     .btn_block{
         height: 400px;
-       
-    } 
-    
+
+    }
+
     .btn_slider{
         height: 30px;
         width: 30px;
         padding: 100px 0px;
     }
-    
+
 /*circles*/
-    
+
     .circles{
        margin: 10px auto;
     }
@@ -208,55 +208,55 @@
 @media screen and (max-width: 425px){
     .btn_block{
         margin-top: 130px;
-        
+
         height: 120px;
     }
-    
+
     .btn_slider{
         margin: 0 0px;
         height: 20px;
         width: 20px;
         padding: 100px 0px;
     }
-    
-    
+
+
     /*circles*/
-    
+
     .circles{
         width: 50px;
        margin: 5px auto;
     }
-    
+
     .slide_circle{
         width: 8px;
         height: 8px;
     }
-    
-    
+
+
 }
 
 @media screen and (max-width: 375px){
     .btn_block{
         margin-left: 0px;
-    
+
     }
-    
+
     .btn_slider{
         margin: 0 -25px;
         padding: 100px 20px;
     }
-    
-    
+
+
         /*circles*/
-    
+
     .circles{
        margin: 5px auto;
     }
-    
+
     .slide_circle{
         width: 5px;
         height: 5px;
     }
-    
-    
+
+
 }
