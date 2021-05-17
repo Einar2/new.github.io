@@ -179,8 +179,7 @@ textarea {
 }
 
 body{
-    height: 100vh;
-    overflow-y: hidden;
+
     margin: 0;
     font-size: 17px;
     line-height: 1.47059;
