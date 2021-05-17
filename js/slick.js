@@ -4,6 +4,7 @@ let circle = document.querySelector(".circles");
 let a = document.querySelector(".infinity_slider_wrap");
 let b = document.querySelector(".infinity_slider");
 let body = document.querySelector("body");
+let html = document.querySelector("html");
 let c = document.querySelector(".btn_block");
 let d = document.querySelector("header");
 let e = document.querySelector(".content_block");
@@ -29,7 +30,7 @@ function push(){
     b.classList.add("infinity_slider_active");
     c.classList.add("btn_block_active");
 
-    footer.style.display = "none"
+//    footer.style.display = "none"
     for (let j = 0; j < img.length; j++){
         img[j].classList.add("img_block_img");
     }
@@ -43,6 +44,7 @@ function push(){
 
 }
     body.classList.add("body");
+    html.classList.add("body");
 
 
 
@@ -56,12 +58,13 @@ function push(){
 
 function close(){
     body.classList.remove("body");
+    html.classList.remove("body");
     circle.style.opacity = "1";
     btn.style.opacity = "0";
     a.classList.remove("infinity_slider_wrap_active");
     b.classList.remove("infinity_slider_active");
     c.classList.remove("btn_block_active");
-    footer.style.display = "block"
+//    footer.style.display = "block"
     for (let j = 0; j < img.length; j++){
         img[j].classList.remove("img_block_img");
     }
