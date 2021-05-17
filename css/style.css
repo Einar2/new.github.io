@@ -1,3 +1,4 @@
+
 .infinity_slider_wrap{
     width: 100%;
     max-width: calc(100% - 20px);
@@ -24,6 +25,9 @@
 .img_block{
     transition: opacity ease 1s;
 
+}
+.none{
+    display: none;
 }
 
 .delay{

@@ -179,6 +179,8 @@ textarea {
 }
 
 body{
+    height: 100vh;
+    overflow-y: hidden;
     margin: 0;
     font-size: 17px;
     line-height: 1.47059;
@@ -752,7 +754,7 @@ a:hover{
     position:relative;
 }
 .content_block .title{
-    margin: 0px 0px 20px;
+    margin: 20px 0px 20px;
     font-size: 32px;
     line-height: 1.05;
     font-weight: 600;

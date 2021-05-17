@@ -23,12 +23,13 @@ for(let i = 0; i < img.length; i++){
 
 
 function push(){
-    circle.style.display = "none";
+    circle.style.opacity = "0";
     btn.style.opacity = "1";
     a.classList.add("infinity_slider_wrap_active");
     b.classList.add("infinity_slider_active");
     c.classList.add("btn_block_active");
-    footer.style.opacity = ".1";
+
+    footer.style.display = "none"
     for (let j = 0; j < img.length; j++){
         img[j].classList.add("img_block_img");
     }
@@ -55,17 +56,18 @@ function push(){
 
 function close(){
     body.classList.remove("body");
-    circle.style.display = "flex";
+    circle.style.opacity = "1";
     btn.style.opacity = "0";
     a.classList.remove("infinity_slider_wrap_active");
     b.classList.remove("infinity_slider_active");
     c.classList.remove("btn_block_active");
+    footer.style.display = "block"
     for (let j = 0; j < img.length; j++){
         img[j].classList.remove("img_block_img");
     }
 
     d.style.opacity = "1";
-    footer.style.opacity = "1";
+
     e.style.opacity = "1";
 }
 
