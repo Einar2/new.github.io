@@ -922,6 +922,16 @@ a:hover{
     }
 }
 
+.text_gor{
+    display: none;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .main_home .logo_block .title{
     opacity: 0;
