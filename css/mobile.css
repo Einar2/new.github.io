@@ -5,9 +5,7 @@
     }
 }
 
-@media only screen and (min-width: 415px) and (max-width: 1279px) {
-    body{display:none;background: #000;overflow: hidden; height: 100vh;} html{overflow: hidden; height: 100vh;} html:before{content:"«Поверните устройство вертикально.»";position:fixed;top:0;left:0;right:0;bottom:0;overflow: hidden; margin:auto;background:#000;z-index:999;width:100%;max-height:100vh;display: flex;align-items: center;justify-content: center;}
-}
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
@@ -206,6 +204,10 @@
 
 
 /*text*/
+
+    @media (orientation: landscape) {
+    body{display:none;background: #000;overflow: hidden; height: 100vh;} html{overflow: hidden; height: 100vh;} html:before{content:"«Поверните устройство вертикально.»";position:fixed;top:0;left:0;right:0;bottom:0;overflow: hidden; margin:auto;background:#000;z-index:999;width:100%;max-height:100vh;display: flex;align-items: center;justify-content: center;}
+}
 
 
 /*footer*/
