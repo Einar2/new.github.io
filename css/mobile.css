@@ -232,23 +232,49 @@
 
     .img_title{
         width: 100%;
+        height: 50px;
     }
+
+
 
 
     @keyframes NewText {
     0%{
         width: 269px;
-        height: 38px;
+        height: 25px;
 
         opacity: 0;
     }
 
+
     100%{
         width: 100%;
-        height: 130px;
+        height: 50px;
         opacity: 1;
     }
 }
+
+
+    .logo_gif{
+        width: 100%;
+        height: 210px;
+        animation: NewLogo 5s  ease-in-out;
+    }
+
+    @keyframes NewLogo {
+    0%{
+        height: 90px;
+        width: 50%;
+        opacity: 0;
+    }
+
+    100%{
+        height: 210px;
+        width: 100%;
+        opacity: 1;
+    }
+}
+
     nav.main_nav {
         width: 100%;
     }
