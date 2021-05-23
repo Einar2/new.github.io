@@ -314,7 +314,7 @@ a:hover, a:focus{
     padding: 25px 0px;
 }
 .main_home .logo_block{
-    margin: 7% 0px 0px;
+    margin: 2% 0px 0px;
 }
 .main_home .logo_block h1{
     margin: 0px 0px 10px;
@@ -419,7 +419,7 @@ nav.main_nav ul a{
 /*/new*/
 
 .page{
-    display: none;
+    display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
