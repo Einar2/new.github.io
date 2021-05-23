@@ -217,10 +217,24 @@
 }
 
 
+/*flex_1*/
+
+.flex_1{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 50px auto;
+}
+
 
 
 
 @media screen and (max-width: 768px){
+
+    .flex_1{
+        display: block;
+        width: 100%;
+    }
     /*Slider*/
     .img_slider{
         height: 600px;
