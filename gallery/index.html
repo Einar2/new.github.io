@@ -110,11 +110,68 @@
 
 <style>
     html{
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
     body{
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
+
+    .logo_gif{
+            height: 182px;
+            width: 25%;
+        }
+
+
+    @keyframes NewLogo {
+    0%{
+        height: 140px;
+        width: 15%;
+        opacity: 0;
+    }
+
+    100%{
+        height: 182px;
+        width: 25%;
+        opacity: 1;
+    }
+
+
+
+}
+
+
+        @media screen and (max-width: 768px){
+            .logo_gif{
+                height: 65px;
+                margin-top: 5px;
+                width: 50%;
+            }
+
+            .email{
+                margin-left: 17px;
+            }
+
+
+
+
+                @keyframes NewLogo {
+    0%{
+        height: 45px;
+        width: 40%;
+        opacity: 0;
+    }
+
+    100%{
+        height: 65px;
+        width: 50%;
+        opacity: 1;
+    }
+
+
+
+}
+        }
+
 </style>
 
     <script src="../js/slider.js"></script>
