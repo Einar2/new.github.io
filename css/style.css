@@ -131,7 +131,7 @@
     width: 100px;
     display: flex;
     justify-content: space-between;
-    height: 30px;
+    height: 10px;
     animation: showGallery 8s ease-in;
     margin: 10px auto;
 
