@@ -386,8 +386,8 @@ nav.main_nav ul a{
 
 .img_title{
 
-    width: 30%;
-    height: 45px;
+    width: 40%;
+    height: 65px;
 
     background: url("../images/Dis_House.png") no-repeat center;
     background-size:  100%;
@@ -491,13 +491,15 @@ nav.main_nav ul a{
     background-color: #000000;
     position: fixed;
     z-index: 11111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .position{
     position: absolute;
-    left: 45%;
-    top: 300px;
+
 
 
 }
@@ -831,8 +833,8 @@ a:hover{
 
 @keyframes NewLogo {
     0%{
-        height: 274px;
-        width: 25%;
+        height: 474px;
+        width: 40%;
         opacity: 0;
     }
 
@@ -845,15 +847,15 @@ a:hover{
 
 @keyframes NewText {
     0%{
-        width: 269px;
-        height: 22px;
+        width: 30%;
+/*        height: 50px;*/
 
         opacity: 0;
     }
 
     100%{
-        width: 30%;
-        height: 45px;
+        width: 40%;
+/*        height: 65px;*/
         opacity: 1;
     }
 }
