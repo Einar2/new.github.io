@@ -30,7 +30,11 @@
         </div>
 -->
 
+         <a href="about.html">
 
+                 <div class="logo_gif"></div>
+
+             </a>
         <div class="items_nav">
             <a  href="gallery/index.html"><div class="imgs"></div></a>
             <a href="mailto:art@ardozo.com"><div class="email"></div></a>
@@ -83,12 +87,66 @@
 </div>
 
 
-    <style>
-        .logo_gif{
-            height: 137px;
+<style>
+
+
+    .logo_gif{
+            height: 182px;
             width: 25%;
         }
-    </style>
+
+
+    @keyframes NewLogo {
+    0%{
+        height: 140px;
+        width: 15%;
+        opacity: 0;
+    }
+
+    100%{
+        height: 182px;
+        width: 25%;
+        opacity: 1;
+    }
+
+
+
+}
+
+
+        @media screen and (max-width: 768px){
+            .logo_gif{
+                height: 65px;
+                margin-top: 5px;
+                width: 50%;
+            }
+
+            .email{
+                margin-left: 17px;
+            }
+
+
+
+
+                @keyframes NewLogo {
+    0%{
+        height: 45px;
+        width: 40%;
+        opacity: 0;
+    }
+
+    100%{
+        height: 65px;
+        width: 50%;
+        opacity: 1;
+    }
+
+
+
+}
+        }
+
+</style>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
