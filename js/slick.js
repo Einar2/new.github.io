@@ -9,6 +9,7 @@ let c = document.querySelector(".btn_block");
 let d = document.querySelector("header");
 let e = document.querySelector(".content_block");
 let footer = document.querySelector(".footer");
+let hed = document.querySelector(".hed");
 
 
 
@@ -29,6 +30,7 @@ function push(){
     a.classList.add("infinity_slider_wrap_active");
     b.classList.add("infinity_slider_active");
     c.classList.add("btn_block_active");
+    hed.style.display = "none";
 
 //    footer.style.display = "none"
     for (let j = 0; j < img.length; j++){
@@ -64,6 +66,7 @@ function close(){
     a.classList.remove("infinity_slider_wrap_active");
     b.classList.remove("infinity_slider_active");
     c.classList.remove("btn_block_active");
+    hed.style.display = "block";
 //    footer.style.display = "block"
     for (let j = 0; j < img.length; j++){
         img[j].classList.remove("img_block_img");

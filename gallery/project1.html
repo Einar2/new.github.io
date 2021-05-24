@@ -31,13 +31,19 @@
 
 <div class="page">
 
-     <header>
+     <header class="hed">
     <div class="container">
 <!--
         <div class="logo_block">
             <a href="/"><img src="../images/logo.png" alt="Дизайнерский дом"/></a>
         </div>
 -->
+
+       <a href="about.html">
+
+                 <div class="logo_gif"></div>
+
+             </a>
         <div class="items_nav">
             <a  href="index.html"><div class="imgs"></div></a>
             <a href="mailto:art@ardozo.com"><div class="email"></div></a>
@@ -142,9 +148,77 @@
         margin-top: 0;
     }
     }
+
     .footer hr{
         margin-top: 15px;
     }
+
+
+
+
+
+    .logo_gif{
+            height: 182px;
+            width: 25%;
+        }
+
+
+    @keyframes NewLogo {
+    0%{
+        height: 140px;
+        width: 15%;
+        opacity: 0;
+    }
+
+    100%{
+        height: 182px;
+        width: 25%;
+        opacity: 1;
+    }
+
+
+
+}
+
+
+        @media screen and (max-width: 768px){
+            .logo_gif{
+                height: 130px;
+                margin-top: 5px;
+                width: 70%;
+            }
+
+            .email{
+                margin-left: 17px;
+            }
+
+
+
+
+                @keyframes NewLogo {
+    0%{
+        height: 100px;
+        width: 50%;
+        opacity: 0;
+    }
+
+    100%{
+        height: 130px;
+        width: 70%;
+        opacity: 1;
+    }
+
+
+
+}
+        }
+
+
+    .b2{
+   transition: all ease 2s;
+    animation: NewLogo 5s  ease-in-out;
+}
+
 </style>
 
 

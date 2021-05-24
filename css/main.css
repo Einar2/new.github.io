@@ -395,13 +395,17 @@ nav.main_nav ul a{
 
 
 
-    animation: NewText 10s  ease-in-out;
+
 /*    animation-delay: 3s;*/
 
     cursor: pointer;
 
 
 
+}
+
+.b1{
+     animation: NewText 10s  ease-in-out;
 }
 
 
@@ -411,10 +415,14 @@ nav.main_nav ul a{
     margin: 0 auto;
     background: url("../images/final.gif") no-repeat center;
     background-size: contain;
-    transition: all ease 2s;
-    animation: NewLogo 5s  ease-in-out;
+
 }
 
+
+.b2{
+   transition: all ease 2s;
+    animation: NewLogo 5s  ease-in-out;
+}
 
 /*/new*/
 
