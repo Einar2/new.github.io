@@ -561,6 +561,18 @@ transition: all ease 2s;
   top: 72px;
   left: 40px;
 }
+
+.a{
+    display:none;
+    background: #000;
+    overflow: hidden;
+    height: 100vh;
+
+}
+
+.l{
+    background-color: #000;
+}
 .lds-roller div:nth-child(5) {
   animation-delay: -0.18s;
 }
