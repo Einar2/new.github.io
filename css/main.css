@@ -694,7 +694,10 @@ a:hover{
 
 /*footer*/
 
-.footer{
+
+
+
+.b3{
     animation: animFooter 10s  ease-in-out;
 }
 
