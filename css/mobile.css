@@ -147,7 +147,12 @@
 @media screen and (max-width: 768px){
 
 
-
+    html{
+        overflow-x: hidden;
+    }
+    body{
+        overflow-x: hidden;
+    }
 /*preloader*/
 
     .position{
