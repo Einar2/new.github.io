@@ -90,6 +90,19 @@
     }
 }
 
+@media screen and (max-width: 1360px){
+    .flex_1{
+        width: 90%;
+    }
+    .img_block_img{
+        height: 700px;
+    }
+
+    .btn_block_active {
+        height: 700px;
+    }
+}
+
 @media screen and (max-width: 1120px){
     .container{
         max-width: calc(100% - 40px);
@@ -355,6 +368,7 @@
         margin: 0px 0px 21px 0px;
     }
     .content_block {
+        margin-top: 40px;
         width: 100%;
     }
     .gallery_block{
